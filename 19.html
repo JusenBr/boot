@@ -1,0 +1,130 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>드랍다운 매뉴 사용해보기</title>
+
+        <link rel="stylesheet" href="../style/css/bootstrap.css">
+        <script src="../style/js/jquery-3.3.1.js"></script>
+        <script src="../style/js/popper.js"></script>
+        <script src="../style/js/bootstrap.js"></script>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    </head>
+    <body>
+        <section class="container">
+            <article>
+                <h3>드랍 다운 버튼 만들기</h3>
+                <div class="dropdown">
+                    <button class="btn btn-primary dropdown-toggle" data-toggle="dropdown">드랍다운 버튼</button>
+                    <div class="dropdown-menu">
+                        <a href="#" class="dropdown-item">링크1</a>
+                        <a href="#" class="dropdown-item">링크2</a>
+                        <a href="#" class="dropdown-item">링크2</a>
+                    </div>
+                </div>
+            </article><hr>
+            <article>
+                <!-- 드롭 다운 메뉴 내부에 div로 dropdown -divider 사용하면 메뉴를 구분하는 구분선을 넣을 수 있음 -->
+                <h3>드랍 다운 메뉴안에 구분선 넣기</h3>
+                <div class="dropdown">
+                    <button class="btn btn-primary dropdown-toggle" data-toggle="dropdown">드랍다운 버튼</button>
+                    <div class="dropdown-menu">
+                        <a href="#" class="dropdown-item">링크1</a>
+                        <a href="#" class="dropdown-item">링크2</a>
+                        <div class="dropdown-divider"></div>
+                        <a href="#" class="dropdown-item">링크1</a>
+                        <a href="#" class="dropdown-item">링크2</a>
+                    </div>
+                </div>
+            </article><hr>
+            <article>
+                <!-- 드롭 다운 메뉴에서 구분선을 사용했을 경우 각 메뉴의 주제에 대한 제목을 넣을 수 있음 -->
+                <!-- 텍스트를 입력하는 태그에 class명을 dropdown-header를 입력 -->
+                <h3>드랍 다운 메뉴의 헤더 사용</h3>
+                <div class="dropdown">
+                    <button class="btn btn-primary dropdown-toggle" data-toggle="dropdown">드랍다운 버튼</button>
+                    <div class="dropdown-menu">
+                        <h5 class="dropdown-header">1번메뉴</h5>
+                        <a href="#" class="dropdown-item">링크1</a>
+                        <a href="#" class="dropdown-item">링크2</a>
+                        <div class="dropdown-divider"></div>
+                        <h5 class="dropdown-header">2번메뉴</h5>
+                        <a href="#" class="dropdown-item">링크1</a>
+                        <a href="#" class="dropdown-item">링크2</a>
+                    </div>
+                </div>
+            </article><hr>
+            <article>
+                <!--  -->
+                <h3>드랍 다운 버튼 만들기</h3>
+            <div class="dropdown">
+                <button class="btn btn-primary dropdown-toggle" data-toggle="dropdown">드랍다운 버튼</button>
+                <div class="dropdown-menu">
+                    <a href="#" class="dropdown-item active">링크1</a>
+                    <a href="#" class="dropdown-item disabled">링크2</a>
+                </div>
+            </div>
+            </article><hr>
+            <article>
+            <!-- div의 class명에 dropleft, dropright를 추가하면 드랍다운 버튼의 화살표 위치가 변경 됨 -->
+            <h3>드랍 다운 버튼(화살표)의 위치 변경하기</h3>
+            <h3>드랍 다운 버튼 만들기</h3>
+            <div class="dropdown drop">
+                <button class="btn btn-primary dropdown-toggle" data-toggle="dropdown">기본형 드랍다운 버튼</button>
+                <div class="dropdown-menu">
+                    <a href="#" class="dropdown-item">링크1</a>
+                    <a href="#" class="dropdown-item">링크2</a>
+                    <a href="#" class="dropdown-item">링크2</a>
+                </div>
+            </div>
+            <div class="dropdown dropleft">
+                <button class="btn btn-primary dropdown-toggle" data-toggle="dropdown">왼쪽화살표 드랍다운 버튼</button>
+            <div class="dropdown-menu">
+                <a href="#" class="dropdown-item">링크1</a>
+                <a href="#" class="dropdown-item">링크2</a>
+                <a href="#" class="dropdown-item">링크2</a>
+            </div>
+            </div>
+            <div class="dropdown dropright">
+                <button class="btn btn-primary dropdown-toggle" data-toggle="dropdown">오른쪽화살표 드랍다운 버튼</button>
+                <div class="dropdown-menu">
+                    <a href="#" class="dropdown-item">링크1</a>
+                    <a href="#" class="dropdown-item">링크2</a>
+                    <a href="#" class="dropdown-item">링크2</a>
+                </div>
+            </div>
+            </article>
+            <article>
+                <!-- 드랍 다운 메뉴의 메뉴를 상단에 출력 -->
+                <!-- dropdown대신 dropup을 사용 -->
+                <h3>드랍 다운 버튼 만들기</h3>
+                <div class="dropup">
+                    <button class="btn btn-primary dropdown-toggle" data-toggle="dropdown">메뉴가 상단에 뜨는 드랍다운 버튼</button>
+                    <div class="dropdown-menu">
+                        <a href="#" class="dropdown-item">링크1</a>
+                        <a href="#" class="dropdown-item">링크2</a>
+                        <a href="#" class="dropdown-item">링크2</a>
+                    </div>
+                </div>
+            </article><hr>
+            <article>
+                <!-- 드랍 다운 메뉴의 메뉴를 상단에 출력 -->
+                <!-- dropdown대신 dropup을 사용 -->
+                    <h3>분할된 드랍 다운 버튼 만들기</h3>
+                    <div class="btn-group">
+                        <button class="btn btn-primary" data-toggle="dropdown">기본버튼</button>
+                        <button class="btn btn-primary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown"></button>
+                        <div class="dropdown-menu">
+                                <a href="#" class="dropdown-item">링크1</a>
+                                <a href="#" class="dropdown-item">링크2</a>
+                                <a href="#" class="dropdown-item">링크2</a>
+                            </div>
+                    </div>          
+                </article><hr>
+        </section>
+    </body>
+</html>
+    

@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>부트스트랩의 페이징 버튼</title>
+
+        <link rel="stylesheet" href="../style/css/bootstrap.css">
+        <script src="../style/js/jquery-3.3.1.js"></script>
+        <script src="../style/js/popper.js"></script>
+        <script src="../style/js/bootstrap.js"></script>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    </head>
+    <body>
+        <section class="container">
+            <article>
+                <!-- 사용자가 선택할 수 있는 선택지를 정해 줌 -->
+                <!-- 이미 선택된 형태로 표시할 경우 li의 class명에 active를 추가 함 -->
+                <h3>리스트 그룹 사용하기</h3>
+                <ul class="list-group">
+                    <li class="list-group-item">첫번째 아이템</li>
+                    <li class="list-group-item">두번째 아이템</li>
+                    <li class="list-group-item">새번째 아이템</li>
+                </ul>
+            </article><hr>
+            <article>
+                <!-- li의 class명에 list-group-item-action을 추가하면 마우스 오버 효과가 추가됨 -->
+                <!-- 선택할 수 없는 리스트를 원할 경우 disabled를 추가 -->
+                <h3>리스트 그룹에 마우스 오버 효과 사용</h3>
+                <ul class="list-group">
+                    <li class="list-group-item list-group-item-action">첫번째 아이템</li>
+                    <li class="list-group-item list-group-item-action">두번째 아이템</li>
+                    <li class="list-group-item list-group-item-action active">새번째 아이템</li>
+                    <li class="list-group-item list-group-item-action disabled">새번째 아이템</li>
+                </ul>
+            </article><hr>
+            <article>
+                <!-- 리스트 그룹에도 부트스트랩의 색상 테마를 사용할 수 있음 -->
+                <!-- list-groip-item-primary, list-groip-secondary, list-groip-success, list-groip-info, list-groip-warning, list-groip-danger, list-groip-dark, list-groip-ligh-->
+                <h3>리스트 그룹에 색상 테마 사용하기</h3>
+                <ul class="list-group">
+                    <li class="list-group-item list-group-item-secondary">secondary 아이템</li>
+                    <li class="list-group-item list-group-item-success">success 아이템</li>
+                    <li class="list-group-item list-group-item-info">info 아이템</li>
+                    <li class="list-group-item list-group-item-warning">warning 아이템</li>
+                    <li class="list-group-item list-group-item-danger">danger 아이템</li>
+                    <li class="list-group-item list-group-item-light">light 아이템</li>
+                    <li class="list-group-item list-group-item-dark">dark 아이템</li>
+                </ul>
+            </article><hr>
+            <article>
+                <h3>뱃지와 함께 사용하기</h3>
+                <ul class="list-group">
+                    <li class="list-group-item d-flex justify-content-between">받은 메일함<span class="badge badge-primary">12</span></li>
+                    <li class="list-group-item d-flex justify-content-between">읽지않은 메일<span class="badge badge-primary">30</span></li>
+                    <li class="list-group-item d-flex justify-content-between">휴지통<span class="badge badge-primary">100</span></li>
+                </ul>
+            </article><hr>
+        </section>
+    </body>
+</html>

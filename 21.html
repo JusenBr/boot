@@ -1,0 +1,177 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>탐색매뉴 사용해보기</title>
+
+        <link rel="stylesheet" href="../style/css/bootstrap.css">
+        <script src="../style/js/jquery-3.3.1.js"></script>
+        <script src="../style/js/popper.js"></script>
+        <script src="../style/js/bootstrap.js"></script>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    </head>
+    <body>
+        <section class="container">
+            <article>
+                <!-- 간단한 형태의 가로형 메뉴 -->
+                <!-- ul과 li, a태그를 이용하여 네비게이션 메뉴를 구성함 -->
+                <h3>탐색 메뉴 사용하기</h3>
+                <ul class="nav">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link active">링크1</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link disabled">링크2</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">링크3</a>
+                    </li>
+                </ul>
+            </article><hr>
+            <article>
+                <!-- 네비게이션 메뉴를 정렬 시 justify-content-center, justify-content-end 사용-->
+                <label>중앙 정렬 :</label>
+                <ul class="nav justify-content-center">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link active">링크1</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link disabled">링크2</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">링크3</a>
+                    </li>
+                </ul>
+                <label>우측 정렬 :</label>
+                <ul class="nav justify-content-end">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link active">링크1</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link disabled">링크2</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">링크3</a>
+                    </li>
+                </ul>
+            </article><hr>
+            <article>
+                <!-- ul의 class명에 flex-column을 추가하면 세로형 탐색 메뉴를 사용가능함 -->
+                <h3>세로형 탐색 메뉴 사용하기</h3>
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link active">링크1</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link disabled">링크2</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">링크3</a>
+                    </li>
+                </ul>
+            </article><hr>
+            <article>
+            <!-- ul의 class명에 nav-taps를 추가하면 탑색 메뉴의 모양이 변경 됨 -->
+            <h3>탐색 메뉴 탭 사용하기</h3>
+            <ul class="nav nav-taps">
+                <li class="nav-item">
+                    <a href="#" class="nav-link active">링크1</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link disabled">링크2</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">링크3</a>
+                </li>
+            </ul>
+            </article><hr>
+            <article>
+            <!-- ul의 class명에 nav-pills를 추가하면 탑색 메뉴의 모양이 변경 됨 -->
+                <h3>탐색 메뉴 pills 사용하기</h3>
+                <ul class="nav nav-pills">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link active">링크1</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link disabled">링크2</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">링크3</a>
+                    </li>
+                </ul>
+            </article><hr>
+            <article>
+                <!-- nav-taps 및 사용시 추가 옵션으로 nav-justified 사용하면 화면을 꽉채울수 있다-->
+                    <h3>탐색 메뉴를 화면 크기에 맞게 늘리기</h3>
+                    <ul class="nav nav-taps nav-justified">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link active">링크1</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link disabled">링크2</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">링크3</a>
+                        </li>
+                    </ul>
+                </article><hr>
+                <article>
+                    <!-- ul의 자식 태그인 li에 드랍다운 메뉴 추가-->
+                    <!-- 기존의 드랍다운 버튼은 div를 사용했지만 li의 class명에 dropdown을 추가하여 사용 -->
+                    <!-- nav-tabs, nav pills 둘다 사용가능함 -->
+                        <h3>탐색 메뉴를 화면 크기에 맞게 늘리기</h3>
+                        <ul class="nav nav-pills">
+                            <li class="nav-item">
+                                <a href="#" class="nav-link active">링크1</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">드랍다운링크</a>
+                                <div class="dropdown-menu">
+                                    <a href="#" class="dropdown-item">서브링크1</a>
+                                    <a href="#" class="dropdown-item">서브링크2</a>
+                                    <a href="#" class="dropdown-item">서브링크2</a>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link disabled">비활성 링크</a>
+                            </li>
+                        </ul>
+                    </article><hr>
+                    <article>
+                        <!-- 하나의 페이지에서 탭을 눌렀을경우 다른 페이지로 이동하는 것이 아니라 특정 영역을 보여주는 형태 -->
+                        <!-- 보기에는 다른 페이지로 이동한 것과 같은 효과를 주지만 실제로는 한페이지에서 동작하고 있음 -->
+                        <!-- li의 data-toggle에 tab를 사용하면 nav-taps에서 사용가능하고 dat-toggle에 pill을 사용하면 nav-pills를 사용해야함 -->
+                        <h3>동적인 탭 변환</h3>
+                        <ul class="nav nav-tabs" role="tablist">
+                            <li class="nav-item">
+                                <a href="#home" class="nav-link active" data-toggle="tab">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#link1" class="nav-link" data-toggle="tab">링크1</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#link2" class="nav-link" data-toggle="tab">링크2</a>
+                            </li>
+                        </ul>
+
+                        <div class="tab-content">
+                            <div id="home" class="container tab-pane active"><br>
+                                <h2>Home</h2>
+                                <p>기본 페이지가 열렸음...</p>
+                            </div>
+                            <div id="link1" class="container tab-pane fade"><br>
+                                <h2>링크 1</h2>
+                                <p>링크 1 페이지가 열렸음...</p>
+                            </div>
+                            <div id="link2" class="container tab-pane fade"><br>
+                                <h2>링크 2</h2>
+                                <p>링크 2 페이지가 열렸음...</p>
+                            </div>
+                        </div>
+                    </article>
+        </section>
+    </body>
+</html>
