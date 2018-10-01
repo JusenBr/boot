@@ -14,182 +14,216 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
         <style>
-        
+            .badge-pill {
+                padding-right: 0.6em;
+                padding-left: 0.6em;
+                border-radius: 10rem;
+            }
         </style>
     </head>
     <body>
-        <header>
-            <nav class="navbar navbar-expand-sm bg-dark navbar-dark d-flex justify-content-around fixed-top">
-                <ul class="navbar-nav">
-                    <li class="nav-item mx-4">
-                        <a href="#" class="nav-link"><i class="fa fa-apple"></i></a>
-                    </li>
-                    <li class="nav-item mx-4">
-                        <a href="#"  class="nav-link">Mac</a>
-                    </li>
-                    <li class="nav-item mx-4">
-                        <a href="#" class="nav-link">iPad</a>
-                    </li>
-                    <li class="nav-item mx-4">
-                        <a href="#" class="nav-link">iPhone</a>
-                    </li>
-                    <li class="nav-item mx-4">
-                        <a href="#" class="nav-link">Watch</a>
-                    </li>
-                    <li class="nav-item mx-4">
-                        <a href="#" class="nav-link">Music</a>
-                    </li>
-                    <li class="nav-item mx-4">
-                        <a href="#" class="nav-link">고객센터</a>
-                    </li>
-                    <li class="nav-item mx-4">
-                        <a href="#" class="nav-link"><i class="fa fa-search"></i></a>
-                    </li>
-                    <li class="nav-item mx-4">
-                        <a href="#" class="nav-link"><i class="fa fa-calendar-o"></i></a>
-                    </li>
-                </ul>
-            </nav>
+        <header class="container">
+            <div class="d-flex justify-content-between pt-3">
+                <div>
+                    <a href="#" class="nav-link text-secondary">Subscribe</a>
+                </div>
+                <div>
+                    <h1>Large</h1>
+                </div>
+                <div>
+                    <ul class="nav">
+                        <li class="nav-item"><a href="#" class="nav-link text-center text-secondary"><i class="fa fa-search right"></i></a></li>
+                        <li class="nav-item"><a href="#" class="btn btn-outline-secondary">sign up</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <hr>
+            <div class="row text-secondary">
+                <div class="col-sm">
+                    <p>Word</p>
+                </div>
+                <div class="col-sm">
+                    <p>U.S</p>
+                </div>
+                <div class="col-sm">
+                    <p>Technology</p>
+                </div>
+                <div class="col-sm">
+                    <p>Design</p>
+                </div>
+                <div class="col-sm">
+                    <p>Culure</p>
+                </div>
+                <div class="col-sm">
+                    <p>business</p>
+                </div>
+                <div class="col-sm">
+                    <p>Politics</p>
+                </div>
+                <div class="col-sm">
+                    <p>Opinion</p>
+                </div>
+                <div class="col-sm">
+                    <p>Science</p>
+                </div>
+                <div class="col-sm">
+                    <p>Health</p>
+                </div>
+                <div class="col-sm">
+                    <p>Style</p>
+                </div>
+                <div class="col-sm">
+                    <p>Trabel</p>
+                </div>
+            </div>
         </header>
-        <main class="container-fluid">
-           <section>
-                <article class="row mb-3">
-                    <div class="col-sm-12">
-                        <div class="row">
-                            <div class="col-sm-5 mx-auto my-5 text-center">
-                               <h1 class="display-1">Punny Headline</h1>
-                                <p>And an even wittier subheading to boot. Jumpstart your marketing efforts with this example based on Apple's marketing pages.</p>
-                                <a href="#" class="btn btn-outline-secondary">Comming soon</a>
-                            </div>
+        <main class="container">
+            <div class="jumbotron text-left bg-dark text-white">
+                <h1 class="display-4 font-italic">Title of a longer<br>
+                    featured blog post</h1><br>
+                <p>Multiple lines of text that form the lede, informing new<br>
+                   readers quickly and efficiently about what's most interesting<br>
+                   in this post's contents.
+                </p>  
+                <P class="font-weight-bold">Continue reading...</P>
+            </div>
+            <div class="row">
+                <div class="col-md d-flex">
+                    <div class="card">
+                        <div class="card bg-white d-flex">
+                            <div class="card-body">
+                                <p class="text-primary font-weight-bold" >World</p>
+                                <h3>Featured post</h3>
+                                <p class="text-secondary">Nov 12</p>        
+                                <p>This is a wider card with supporting text below as a natural lead-in to additional content. Continue reading</p>
+                                <a href="#">Continue reading</a>
+                             </div>  
                         </div>
                     </div>
-                <article class="row mb-3">
-                    <div class="col-sm-6 px-3 bg-dark">
-                        <div class="row h-25 my-3">
-                            <div class="col-sm-8 mx-auto">
-                                <h1>Another headline</h1>
-                                <p>And an even wittier subheading.</p>
-                            </div>
+                    <img src="../img/2.svg" class="float-right"> 
+                </div>
+           
+                <div class="col-md d-flex">
+                    <div class="card float-left">
+                        <div class="card bg-white">
+                            <div class="card-body">
+                                <p class="text-primary font-weight-bold" >World</p>
+                                <h3>Featured post</h3>
+                                <p class="text-secondary">Nov 12</p>        
+                                <p>This is a wider card with supporting text below as a natural lead-in to additional content. Continue reading</p>
+                                <a href="#">Continue reading</a>
+                            </div>  
+                            
                         </div>
-                        <div class="row my-3" style="height:300px;">
-                            <div class="col-sm-8 mx-auto bg-light rouded-top">
-                            </div>
-                        </div>
+                        
                     </div>
-                </article>
-                <article class="row mb-3">
-                    <div class="col-sm-6 px-3">
-                        <p></p>
-                    </div>
-                </article>
-                <article class="row mb-3">
-                    <div class="col-sm-6 px-3">
-                        <p></p>
-                    </div>
-                </article>
-                <article class="row mb-3">
-                    <div class="col-sm-6 px-3">
-                        <p></p>
-                    </div>
-                </article>
-                <article class="row mb-3">
-                    <div class="col-sm-6 px-3">
-                        <p></p>
-                    </div>
-                </article>
-                <article class="row mb-3">
-                    <div class="col-sm-6 px-3">
-                        <p></p>
-                    </div>
-                </article>
-           </section>
-        </main>
+                    <img src="../img/2.svg"  class="float-right"> 
+                </div>
+            </div><br>
+            <div class="row">
+                <div class="col-md-8">
+                        <h3 class="font-italic">From the Firehose</h3>
+                        <hr>
+                        <h1>Sample blog post</h1>
+                        <p class="text-secondary">January 1, 2014 by<a href="#"> Mark</a></p>
+                        
+                        <p>This blog post shows a few different types of content that's supported and styled with Bootstrap. Basic typography, images, and code are all supported.</p><br>
+                        
+                        <p>Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.</p><br>
+           
+                        <p>Curabitur blandit tempus porttitor.<span class="font-weight-bold"> Nullam quis risus eget urna mollis</span> ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.</p><br>
+                    
+                        <p>Etiam porta sem malesuada magna mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p><br>
+                   
+                        <h1>Heading</h1><br>
+                        <p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p><br>
+                        
+                        <h3>Sub-heading</h3><br>
+                        <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p><br>
+                        
+                        <p class="small">Example code block</p><br>
 
-        <footer class="container-fluid bg-light">
-            <section class="container">
-                <!-- 네비 부분 -->
-                <article class="row text-dark" style="font-size:0.7em">
-                    <div class="col-sm">
-                        <p>쇼핑 및 알아보기</p>
-                        <ul class="list-unstyled">
-                            <li><a href="#" class="text-dark">Mac</a></li>
-                            <li><a href="#" class="text-dark">iPad</a></li>
-                            <li><a href="#" class="text-dark">iPhone</a></li>
-                            <li><a href="#" class="text-dark">Watch</a></li>
-                            <li><a href="#" class="text-dark">Music</a></li>
-                            <li><a href="#" class="text-dark">Music</a></li>
-                            <li><a href="#" class="text-dark">iTunes</a></li>
-                            <li><a href="#" class="text-dark">iPod touch</a></li>
-                            <li><a href="#" class="text-dark">액세서리</a></li>
+                        <p>Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.</p><br>
+                        
+                        <h3>Sub-heading</h3><br>
+                        <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+                        
+                        <ul>
+                            <li>Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</li>
+                            <li>Donec id elit non mi porta gravida at eget metus.</li>
+                            <li>Nulla vitae elit libero, a pharetra augue.</li>
                         </ul>
+                        <p>Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.</p>
+                        
+                        <ol>
+                            <li>Vestibulum id ligula porta felis euismod semper.</li>
+                            <li>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</li>
+                            <li>Maecenas sed diam eget risus varius blandit sit amet non magna.</li>
+                        </ol>
+                        <p>Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis.</p>
+                        
+                        <h1>Another blog post</h1>
+                        <p class="text-secondary">December 23, 2013 by <a href="#">Jacob</a></p>
+                        
+                        <p>Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.</p><br>
+                        
+                        <p>Curabitur blandit tempus porttitor. <span class="font-weight-bold">Nullam quis risus eget urna mollis</span> ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.</p><br>
+                        
+                        <p>Etiam porta sem malesuada magna mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p><br>
+                        
+                        <p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p><br>
+                        
+                        <h1>New feature</h1>
+                        <p class="text-secondary">December 14, 2013 by <a href="#">Chris</a></p>
+                        
+                        <p>>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p><br>
+                        
+                        <ul>
+                            <li>Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</li>
+                            <li>Donec id elit non mi porta gravida at eget metus.</li>
+                            <li>Nulla vitae elit libero, a pharetra augue.</li>
+                        </ul>
+                        <p>Etiam porta sem malesuada magna mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
+                        
+                        <p>Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.</p>
+                </div>
+                <div class="col-md-4">
+                    <div class="container bg-light">   
+                    <h3>About</h3>
+                        <p>Etiam porta sem malesuada magna mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
+                    </div><br> 
+                    
+                    <div class="container">
+                    <h3>Archives</h3>
+                        <a href="#">March 2014</a><br>
+                        <a href="#">February 2014</a><br>
+                        <a href="#">January 2014</a><br>
+                        <a href="#">December 2013</a><br>
+                        <a href="#">November 2013</a><br>
+                        <a href="#">October 2013</a><br>
+                        <a href="#">September 2013</a><br>
+                        <a href="#">August 2013</a><br>
+                        <a href="#">July 2013</a><br>
+                        <a href="#">June 2013</a><br>
+                        <a href="#">May 2013</a><br>
+                        <a href="#">April 2013</a><br>
+                    </div><br>
+
+                    <div class="container">
+                        <h3>Elsewhere</h3>
+                        <a href="#">GitHub</a><br>
+                        <a href="#">Twitter</a><br>
+                        <a href="#">Facebook</a><br>
                     </div>
-                    <div class="col-sm">
-                        <p>Apple Store</p>
-                        <ul class="list-unstyled">
-                            <li><a href="#" class="text-dark">매장찾기</a></li>
-                            <li><a href="#" class="text-dark">Genius Bar</a></li>
-                            <li><a href="#" class="text-dark">Today at Apple</a></li>
-                            <li><a href="#" class="text-dark">Apple 캠프</a></li>
-                            <li><a href="#" class="text-dark">현장 학습</a></li>
-                            <li><a href="#" class="text-dark">Apple Store앱</a></li>
-                            <li><a href="#" class="text-dark">리퍼 및 특가제품</a></li>
-                            <li><a href="#" class="text-dark">금융 해택</a></li>
-                            <li><a href="#" class="text-dark">Apple GiveBack</a></li>
-                            <li><a href="#" class="text-dark">주문 상태</a></li>
-                            <li><a href="#" class="text-dark">쇼핑 도움말</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-sm">
-                        <p>교육</p>
-                        <ul class="list-unstyled">
-                            <li><a href="#" class="text-dark">Apple과 교육</a></li>
-                            <li><a href="#" class="text-dark">대학 생활을 위한 제품 쇼핑하기</a></li>
-                        </ul>
-                        <br>
-                        <p>비즈니스</p>
-                        <ul class="list-unstyled">
-                            <li><a href="#" class="text-dark">Apple과 비즈니스</a></li>
-                            <li><a href="#" class="text-dark">비즈니스를 위한 제품 쇼핑하기</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-sm">
-                        <p>계정</p>
-                        <ul class="list-unstyled">
-                            <li><a href="#" class="text-dark">Apple ID 관리</a></li>
-                            <li><a href="#" class="text-dark">Apple Store 계정</a></li>
-                            <li><a href="#" class="text-dark">iCloud.com</a></li>
-                        </ul>
-                        <br>
-                        <p>Apple의 가치관</p>
-                        <ul class="list-unstyled">
-                            <li><a href="#" class="text-dark">손쉬운 사용</a></li>
-                            <li><a href="#" class="text-dark">환경</a></li>
-                            <li><a href="#" class="text-dark">개인정보 보호</a></li>
-                            <li><a href="#" class="text-dark">협력업체에 대한 책임</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-sm">
-                        <p>Apple 정보</p>
-                        <ul class="list-unstyled">
-                            <li><a href="#" class="text-dark">Newsroom</a></li>
-                            <li><a href="#" class="text-dark">Apple 리더십</a></li>
-                            <li><a href="#" class="text-dark">채용 안내</a></li>
-                            <li><a href="#" class="text-dark">이벤트</a></li>
-                            <li><a href="#" class="text-dark">Apple 연락처</a></li>
-                        </ul>
-                    </div>
-                  </article>
-                <!-- 회사 정보 -->
-                <article style="font-size:0.7em">
-                    <p >다양한 쇼핑 방법: Apple Store를 방문하거나, 080-330-8877번으로 전화하거나, 리셀러를 찾아보세요. </p>
-                    <hr>
-                    <div class="clearfix">
-                        <p class="float-left small">Copyright © 2018Apple Inc. 모든 권리 보유. 개인정보 처리방침 약관 판매 및 환불 법적 고지 사이트 맵</p>
-                        <span class="fa fa-chrome float-right">대한민국</span>
-                        </div>
-                        <p> 사업자등록번호 : 120-81-84429 | 통신판매업신고번호 : 제 2011-서울강남-00810호 | 대표이사 : PETER DENWOOD | 주소 : 서울 특별시 강남구 영동대로 517 | 대표전화 : 02-6712-6700 | 팩스 : 02-6928-0000</p>
-                    </article>
-            </section>
+                </div>
+            </div>
+        </main>
+        <br><br>
+
+        <footer class="container">
+            <a href="#" class="btn btn-outline-primary badge-pill ">Older</a>
+            <a href="#" class="btn btn-outline-secondary badge-pill disabled">Newer</a>
         </footer>
     </body>
 </html>

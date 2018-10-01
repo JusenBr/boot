@@ -13,217 +13,174 @@
 
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-        <style>
-            .badge-pill {
-                padding-right: 0.6em;
-                padding-left: 0.6em;
-                border-radius: 10rem;
-            }
-        </style>
     </head>
     <body>
-        <header class="container">
-            <div class="d-flex justify-content-between pt-3">
-                <div>
-                    <a href="#" class="nav-link text-secondary">Subscribe</a>
-                </div>
-                <div>
-                    <h1>Large</h1>
-                </div>
-                <div>
-                    <ul class="nav">
-                        <li class="nav-item"><a href="#" class="nav-link text-center text-secondary"><i class="fa fa-search right"></i></a></li>
-                        <li class="nav-item"><a href="#" class="btn btn-outline-secondary">sign up</a></li>
-                    </ul>
-                </div>
-            </div>
-            
-            <hr>
-            <div class="row text-secondary">
-                <div class="col-sm">
-                    <p>Word</p>
-                </div>
-                <div class="col-sm">
-                    <p>U.S</p>
-                </div>
-                <div class="col-sm">
-                    <p>Technology</p>
-                </div>
-                <div class="col-sm">
-                    <p>Design</p>
-                </div>
-                <div class="col-sm">
-                    <p>Culure</p>
-                </div>
-                <div class="col-sm">
-                    <p>business</p>
-                </div>
-                <div class="col-sm">
-                    <p>Politics</p>
-                </div>
-                <div class="col-sm">
-                    <p>Opinion</p>
-                </div>
-                <div class="col-sm">
-                    <p>Science</p>
-                </div>
-                <div class="col-sm">
-                    <p>Health</p>
-                </div>
-                <div class="col-sm">
-                    <p>Style</p>
-                </div>
-                <div class="col-sm">
-                    <p>Trabel</p>
-                </div>
+        <header>
+            <div class="container text-center">
+                <img src="https://getbootstrap.com/docs/4.1/assets/brand/bootstrap-solid.svg" width="100px" height="100px" class="mx-auto d-block"><br>
+                <h4>Checkout form</h4>
+                <p class="justify">Below is an example form built entirely with Bootstrap's form controls. Each required form group has a validation state that can be triggered by attempting to submit the form without completing it.</p>
             </div>
         </header>
-        <main class="container">
-            <div class="jumbotron text-left bg-dark text-white">
-                <h1 class="display-4 font-italic">Title of a longer<br>
-                    featured blog post</h1><br>
-                <p>Multiple lines of text that form the lede, informing new<br>
-                   readers quickly and efficiently about what's most interesting<br>
-                   in this post's contents.
-                </p>  
-                <P class="font-weight-bold">Continue reading...</P>
-            </div>
-            <div class="row">
-                <div class="col-md d-flex">
-                    <div class="card">
-                        <div class="card bg-white d-flex">
-                            <div class="card-body">
-                                <p class="text-primary font-weight-bold" >World</p>
-                                <h3>Featured post</h3>
-                                <p class="text-secondary">Nov 12</p>        
-                                <p>This is a wider card with supporting text below as a natural lead-in to additional content. Continue reading</p>
-                                <a href="#">Continue reading</a>
-                             </div>  
-                        </div>
-                    </div>
-                    <img src="../img/2.svg" class="float-right"> 
-                </div>
-           
-                <div class="col-md d-flex">
-                    <div class="card  float-left">
-                        <div class="card bg-white">
-                            <div class="card-body">
-                                <p class="text-primary font-weight-bold" >World</p>
-                                <h3>Featured post</h3>
-                                <p class="text-secondary">Nov 12</p>        
-                                <p>This is a wider card with supporting text below as a natural lead-in to additional content. Continue reading</p>
-                                <a href="#">Continue reading</a>
-                            </div>  
-                            
-                        </div>
-                        
-                    </div>
-                    <img src="../img/2.svg"  class="float-right"> 
-                </div>
-            </div><br>
-            <div class="row">
-                <div class="col-md-8">
-                        <h3 class="font-italic">From the Firehose</h3>
-                        <hr>
-                        <h1>Sample blog post</h1>
-                        <p class="text-secondary">January 1, 2014 by<a href="#"> Mark</a></p>
-                        
-                        <p>This blog post shows a few different types of content that's supported and styled with Bootstrap. Basic typography, images, and code are all supported.</p><br>
-                        
-                        <p>Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.</p><br>
-           
-                        <p>Curabitur blandit tempus porttitor.<span class="font-weight-bold"> Nullam quis risus eget urna mollis</span> ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.</p><br>
-                    
-                        <p>Etiam porta sem malesuada magna mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p><br>
-                   
-                        <h1>Heading</h1><br>
-                        <p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p><br>
-                        
-                        <h3>Sub-heading</h3><br>
-                        <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p><br>
-                        
-                        <p class="small">Example code block</p><br>
+        <main>    
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8">
+                        <h3>Billing address</h3>
+                        <form action="">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <label>First name</label>
+                                    <input type="text" class="form-control">
+                                </div>
+                                <div class="col-md-6">
+                                    <label>Last name</label>
+                                    <input type="text" class="form-control">
+                                </div>
+                            </div><br>
 
-                        <p>Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.</p><br>
-                        
-                        <h3>Sub-heading</h3><br>
-                        <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-                        
-                        <ul>
-                            <li>Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</li>
-                            <li>Donec id elit non mi porta gravida at eget metus.</li>
-                            <li>Nulla vitae elit libero, a pharetra augue.</li>
-                        </ul>
-                        <p>Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.</p>
-                        
-                        <ol>
-                            <li>Vestibulum id ligula porta felis euismod semper.</li>
-                            <li>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</li>
-                            <li>Maecenas sed diam eget risus varius blandit sit amet non magna.</li>
-                        </ol>
-                        <p>Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis.</p>
-                        
-                        <h1>Another blog post</h1>
-                        <p class="text-secondary">December 23, 2013 by <a href="#">Jacob</a></p>
-                        
-                        <p>Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.</p><br>
-                        
-                        <p>Curabitur blandit tempus porttitor. <span class="font-weight-bold">Nullam quis risus eget urna mollis</span> ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.</p><br>
-                        
-                        <p>Etiam porta sem malesuada magna mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p><br>
-                        
-                        <p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p><br>
-                        
-                        <h1>New feature</h1>
-                        <p class="text-secondary">December 14, 2013 by <a href="#">Chris</a></p>
-                        
-                        <p>>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p><br>
-                        
-                        <ul>
-                            <li>Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</li>
-                            <li>Donec id elit non mi porta gravida at eget metus.</li>
-                            <li>Nulla vitae elit libero, a pharetra augue.</li>
-                        </ul>
-                        <p>Etiam porta sem malesuada magna mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
-                        
-                        <p>Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.</p>
-                </div>
-                <div class="col-md-4">
-                    <div class="container bg-light">   
-                    <h3>About</h3>
-                        <p>Etiam porta sem malesuada magna mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
-                    </div><br> 
-                    
-                    <div class="container">
-                    <h3>Archives</h3>
-                        <a href="#">March 2014</a><br>
-                        <a href="#">February 2014</a><br>
-                        <a href="#">January 2014</a><br>
-                        <a href="#">December 2013</a><br>
-                        <a href="#">November 2013</a><br>
-                        <a href="#">October 2013</a><br>
-                        <a href="#">September 2013</a><br>
-                        <a href="#">August 2013</a><br>
-                        <a href="#">July 2013</a><br>
-                        <a href="#">June 2013</a><br>
-                        <a href="#">May 2013</a><br>
-                        <a href="#">April 2013</a><br>
-                    </div><br>
+                            <div>
+                                <label>Username</label>
+                                <div class="input-group">
+                                    <span class="input-group-text">@</span>
+                                    <input type="text" class="form-control" placeholder="Username">
+                                </div>
+                            </div><br> 
 
-                    <div class="container">
-                        <h3>Elsewhere</h3>
-                        <a href="#">GitHub</a><br>
-                        <a href="#">Twitter</a><br>
-                        <a href="#">Facebook</a><br>
+                            <div>
+                               <label>Email (Optional)</label>
+                                    <input type="text" class="form-control" placeholder="you@example.com">
+                            </div>
+                            <div>
+                                <label>Address</label>
+                                    <input type="text" class="form-control" placeholder="1234 Main St">
+                                </div>
+                            <div>
+                                <label>Address 2 (Optional)</label>
+                                    <input type="text" class="form-control" placeholder="Apartment of suite">
+                            </div><br>
+
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <select class="form-control" id="sel1" name="sellist1">
+                                            <option>choose...</option>
+                                            <option>United States</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-4">
+                                    <select class="form-control" id="sel1" name="sellist1">
+                                            <option>choose...</option>
+                                            <option>Califormia</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-4">
+                                    <input type="text" class="form-control">
+                                </div>
+                            </div><hr>
+
+                            <div class="form-check">
+                                <input type="checkbox" class="form-check-input" value="">Shipping address is the same as my billing address
+                            </div>
+                            <div class="form-check">
+                                <input type="checkbox" class="form-check-input" value="">Save this information for next time
+                            </div><hr>
+
+                            <h4>Payment</h4>
+                            <div class="form-check">
+                                <input type="radio" class="form-check-input" name="optradio">Credit card
+                            </div>
+                            <div class="form-check">
+                                <input type="radio" class="form-check-input" name="optradio">Debit card
+                            </div>
+                            <div class="form-check">
+                                <input type="radio" class="form-check-input" name="optradio">PayPal
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                  <label>Name on card</label>
+                                  <input type="text" class="form-control">
+                                  <small class="text-muted">Full name as displayed on card</small>
+                                </div>
+                                <div class="col-md-6">
+                                    <label>Credit card number</label>
+                                    <input type="text" class="form-control">
+                                </div>
+                            </div><br>
+
+                            <div class="row">
+                                    <div class="col-md-3">
+                                      <label>Expiration</label>
+                                      <input type="text" class="form-control">
+                                    </div>
+                                    <div class="col-md-3">
+                                        <label>CVV</label>
+                                        <input type="text" class="form-control">
+                                    </div>
+                                </div><hr>
+                          
+                                <button type="button" class="btn btn-primary btn-block btn-lg">Continue to checkbox</button>
+                        </form>
+                    </div>
+                    <div class="col-md-4">
+                        <h4 class="d-flex justify-content-between">
+                            <span class="text-muted">Your cart</span><span class="badge badge-pill badge-secondary">3</span></h4>
+                        <ul class="list-group">
+                            <li class="list-group-item d-flex justify-content-between">
+                                <div>
+                                    <h6>Product name</h6>
+                                    <p class="small text-muted">Brief description</p>
+                                </div>
+                                <span>$12</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between">
+                                <div>
+                                    <h6>Second product</h6>
+                                    <p class="small text-muted">Brief description</p>
+                                </div>
+                                <span>$8</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between">
+                                <div>
+                                    <h6>Third item</h6>
+                                    <p class="small text-muted">Brief description</p>
+                                </div>
+                                <span>$5</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between text-success">
+                                <div>
+                                    <h6>Promo code</h6>
+                                    <p class="small">EXAMPLECODE</p>
+                                </div>
+                                <span>-$5</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between">
+                                <div>
+                                    <h6>Total (USD)</h6>
+                                </div>
+                                <span class="font-weight-bold">$20</span>
+                            </li>
+                        </ul><br>
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Promo Code">
+                            <div class="input-group-append">
+                                <button class="btn btn-secondary">Redeem</button>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </main>
-        <br><br>
+        <br><br><br>
 
-        <footer class="container">
-            <a href="#" class="btn btn-outline-primary badge-pill ">Older</a>
-            <a href="#" class="btn btn-outline-secondary badge-pill disabled">Newer</a>
+        <footer>
+            <div class="container text-center">
+                <p class="text-muted">© 2017-2018 Company Name</p>
+                <ul class="nav justify-content-center">
+                    <li class="nav-item"><a class="nav-link" href="#">Privacy</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Terms</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Support</a></li>
+                </ul>
+            </div>
         </footer>
     </body>
 </html>

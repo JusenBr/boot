@@ -13,153 +13,133 @@
 
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-        <style>
-            .carousel-inner img {
-                width : 100%;
-                height: 510px;
-            }
-
-            .bg-dark2 {
-                background-color: #000000 !important;
-            }
-            hr {
-                margin: 5em 0;
-            }
-        </style>
     </head>
     <body>
         <header>
-            <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-                <a href="#" class="navbar-brand">Carousel</a>
-
-                <ul class="navbar-nav mr-auto">
+            <nav class="navbar navbar-expand-sm navbar-light">
+                    <p>Company name</p>
+                    <ul class="navbar-nav ml-auto">   
                         <li class="nav-item">
-                            <a href="#" class="nav-link active">Home</a>
+                            <a href="#" class="nav-link">Features</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link">Link</a>
+                            <a href="#" class="nav-link">Enterprise</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link disabled">Disabled</a>
+                            <a href="#" class="nav-link">Support</a>
                         </li>
-                    </li>
-                </ul>
-
-                <form class="form-inline">
-                    <div class="form-group">
-                        <input type="text" class="form-control mr-2" placeholder="Search...">
-                        <button class="btn btn-outline-success">Search</button>
-                    </div>
-                </form>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Pricing</a>
+                        </li>
+                    </ul>
+                    <form class="form-inline">
+                        <div class="form-group">
+                           <button class="btn btn-outline-primary">Sign up</button>
+                        </div>
+                    </form>
             </nav>
         </header>
-
         <main>
-            <!-- 케로셀 -->
-            <div id="demo" class="carousel slide mb-5" data-role="carousel">
-                <ul class="carousel-indicators">
-                    <li data-target="#demo" data-slide-to="0" class="active"></li>
-                    <li data-target="#demo" data-slide-to="1"></li>
-                    <li data-target="#demo" data-slide-to="2"></li>
-                </ul>
-
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="../img/01.jpg">
-                            <div class="carousel-caption">
-                            <h1>그림의 제목을 넣어보아요..</h1>
-                            <p></p>
-                            </div>  
+            <div class="container">
+                <h1 class="text-center">Pricing</h1>
+                <p>Quickly build an effective pricing table for your potential customers with this Bootstrap example. It's built with default Bootstrap components and utilities with little customization.</p>
+            
+            <article class="row">
+                    <div class="col-md-4">
+                        <div class="card text-center">
+                            <div class="card-header">Free</div>
+                            <div class="card-body">
+                                <h1>$0 / mo</h1>
+                                <ul class="list-unstyled">
+                                    <li>10 users included</li>
+                                    <li>2 GB of storage</li>
+                                    <li>Email support</li>
+                                    <li>Help center access</li>
+                                </ul>
+                            </div>
+                            <div class="card-footer">
+                                <button class="btn btn-outline-primary">Sign up free</button>
+                            </div>
+                        </div>
                     </div>
-                    <div class="carousel-item">
-                        <img src="../img/02.jpg">
+                    <div class="col-md-4">
+                        <div class="card text-center">
+                            <div class="card-header">Pro</div>
+                            <div class="card-body">
+                                <h1>$15 / mo</h1>
+                                <ul class="list-unstyled">
+                                <li>20 users included</li>
+                                <li>10 GB of storage</li>
+                                <li>Priority email support</li>
+                                <li>Help center access</li>
+                            </div>
+                            <div class="card-footer">
+                                <button class="btn btn-outline-primary">Get started</button>
+                            </div>
+                        </div>
                     </div>
-                    <div class="carousel-item">
-                        <img src="../img/03.jpg">
+                    <div class="col-md-4">
+                        <div class="card text-center">
+                            <div class="card-header">Enterprise</div>
+                            <div class="card-body">
+                                <h1>$29 / mo</h1>
+                                <ul class="list-unstyled">
+                                    <li>30 users included</li>
+                                    <li>15 GB of storage</li>
+                                    <li>Phone and email support</li>
+                                    <li>Help center access</li>
+                                </ul>
+                            </div>
+                            <div class="card-footer">
+                                <button class="btn btn-outline-primary">Contact us</button>
+                            </div>
+                        </div>
                     </div>
                 </div>
-
-                <a href="#demo" class="carousel-control-prev" data-slide="prev">
-                    <span class="carousel-control-prev-icon"></span>
-                </a>
-                <a href="#demo" class="carousel-control-next" data-slide="next">
-                    <span class="carousel-control-next-icon"></span>
-                </a>
-            </div>
-
-            <!-- 컨텐츠 -->
-            <section class="container">
-                <article class="row">
-                    <div class="col-md-4 text-center mb-3">
-                        <div>
-                            <img src="../img/01.jpg" alt="" class="rounded-circle"  width="140" height="140">
-                        </div>
-                        <h2>Heading</h2>
-                        <p >Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-                        <a href="#" class="btn btn-secondary">View details &raquo;</a>
-                        <div class="col-md-4"></div>
-                        <div class="col-md-4"></div>
-                    </div>
-                    <div class="col-md-4 text-center mb-3">
-                        <div>
-                            <img src="../img/02.jpg" alt="" class="rounded-circle"  width="140" height="140">
-                        </div>
-                        <h2>Heading</h2>
-                        <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-                        <a href="#" class="btn btn-secondary">View details &raquo;</a>
-                        <div class="col-md-4"></div>
-                        <div class="col-md-4"></div>
-                    </div>
-                    <div class="col-md-4 text-center mb-3">
-                        <div>
-                            <img src="../img/03.jpg" alt="" class="rounded-circle" width="140" height="140">
-                        </div>
-                        <h2>Heading</h2>
-                        <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-                        <a href="#" class="btn btn-secondary">View details &raquo;</a>
-                        <div class="col-md-4"></div>
-                        <div class="col-md-4"></div>
-                    </div>
-                </article><hr>
-
-                <article class="row">
-                    <div class="col-md-7">
-                        <h2>First featurette heading. It'll blow your mind.</h2>
-                        <p>Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-                    </div>
-                    <div class="col-md-5">
-                        <img src="https://fakeimg.pl/450/">
-                    </div>
-                    </article><hr>
-
-                <article class="row">
-                    <div class="col-md-5">
-                        <img src="https://fakeimg.pl/450/">
-                        
-                    </div>
-                    <div class="col-md-7">
-                        <h2>Oh yeah, it's that good. See for yourself.</h2>
-                        <p>Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-                    </div>
-                </article><hr>
-
-                <article class="row">
-                    <div class="col-md-7">
-                        <h2>And lastly, this one. Checkmate.</h2>
-                        <p>Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-                    </div>
-                    <div class="col-md-5">
-                        <img src="https://fakeimg.pl/450/">
-                    </div>
-                </article><hr>
-            </section>
+            </article><br><br><hr>
         </main>
-
-        <footer class="container">
-            <div class="clearfix pt-3 pb-2">
-                <p class="float-left">&copy; 2017-2018 Company, Inc. · Privacy · Terms</p>
-                <a href="#" class="float-right">Back to top</a>
-            </div>  
+        <footer>
+            <article class="container">  
+                <div class="row">
+                    <div class="col-md-3">
+                        <img src="../img/1.svg" width="20px" height="20px">
+                        <p>&copy; 2017-2018</p>
+                    </div>
+                    
+                    <div class="col-md-3">
+                        <h5>Features</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="#" class="text-dark">Cool stuff</a></li>
+                            <li><a href="#" class="text-dark">Random feature</a></li>  
+                            <li><a href="#" class="text-dark">Team feature</a></li> 
+                            <li><a href="#" class="text-dark">Stuff for developers</a></li>    
+                            <li><a href="#" class="text-dark">Another one</a></li>    
+                            <li><a href="#" class="text-dark">Last time</a></li> 
+                        </ul>
+                     
+                    </div>   
+                    
+                    <div class="col-md-3">
+                        <h5>Resources</h5> 
+                        <ul class="list-unstyled">  
+                            <li><a href="#" class="text-dark">Resource</a></li>    
+                            <li><a href="#" class="text-dark">Resource name</a></li>    
+                            <li><a href="#" class="text-dark">Another resource</a></li>    
+                            <li><a href="#" class="text-dark">Final resource</a></li>   
+                        </ul>
+                    </div>
+                    
+                    <div class="col-md-3">
+                    <h5>About</h5>  
+                        <ul class="list-unstyled"> 
+                            <li><a href="#" class="text-dark">Team</a></li>    
+                            <li><a href="#" class="text-dark">Locations</a></li>    
+                            <li><a href="#" class="text-dark">lirivacy</a></li>    
+                            <li><a href="#" class="text-dark">Terms</a></li> 
+                        </ul>   
+                    </div>
+                </div>
+            </article>
         </footer>
-    </body>
+    </body> 
 </html>
